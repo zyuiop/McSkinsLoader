@@ -47,7 +47,7 @@ def findMinecraftPath():
     if system == "Linux":
         return expanduser("~") + "/.minecraft"
     elif system == "Windows":
-        return os.getenv('APPDATA') + "/Roaming/.minecraft"
+        return os.getenv('APPDATA') + "/.minecraft"
     elif system == "Darwin":
         return expanduser("~") + "/Library/Application Support/minecraft"
     else:
