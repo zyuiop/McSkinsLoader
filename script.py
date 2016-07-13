@@ -77,7 +77,7 @@ if os.path.exists(home + "/launcher_profiles.json"):
 if accessToken == None:
     accessToken = input("No access token found. Access Token ? ")
 if uuid == None:
-    accessToken = input("No UUID found. UUID ? ")
+    uuid = input("No UUID found. UUID ? ")
 
 uuid = uuid.replace("-", "")
 
